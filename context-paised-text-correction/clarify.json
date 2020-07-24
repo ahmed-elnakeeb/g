@@ -1,0 +1,105 @@
+{
+    "multimedia":
+    [
+        ["means that computer information can be represented through media types text or audio or video or graphics or images"],
+        ["represented,media,types,text,audio,video,graphics,images"]
+    ],
+    "multimedia system":
+    [
+        ["is a system capable of processing multimedia data and application"],
+        ["system,capable,processing,multimedia,data,application"]
+    ],
+    "sampling":
+    [
+        ["is the process of recording an analog signal at regular discrete moments of time","convert a continous media into discrete format"],
+        ["process,recording,analog,discrete,convert,format"]
+    ] ,
+    "quantization": 
+    [
+        ["is the process that make the amplitude discrete by dividing it into smaller parts to convert continous sampling into finite number of digital number or sampling results in a series pulses"],
+        ["process,amplitude,dividing,discrete,continous,sampling,finite,number,digital,series,pulses"]
+    ],
+    "Nyquist Theorem":
+    [
+     ["The necessary condition of reconstructing a continuous signal from the sampling version is that the sampling frequency","the necassery conditions of reconstructing a continous signal to complete the sampling process fs greater than or equal 2fmax"],
+     ["conditions,reconstructing,continous,signal,sampling,frequency"]
+    ],
+    "compression ratio":
+    [
+     ["is the divition of size of original data and size of compressed data","is the divition of size before compression and size after compression"],
+     ["divition,size,before,after,original,compressed,compression"]
+    ],
+    "compressin":
+    [
+        ["is the reduction in size of dat on order to save space or transmission time"],
+        ["reduction,size,save,space,transmission,time"]
+    ],
+    "lossless compression": 
+    [
+        ["it is mean that the recovered of data is exactly the same of the input"],
+        ["recovered,data,exactly,same,input"]
+    ],
+    "lossy compression": 
+    [
+        ["it is mean that the recovered of data is approximates the same of the input"],
+        ["recovered,data,approximates,approximate,same,input"]
+    ],
+    "fixed length":
+    [
+        ["it is mean that the code length for all symbpls are equal in size" ],
+        ["code,length,equal,size"]
+    ],
+    "variable length":
+    [
+        ["it is mean that the code length differ from symbol to another in size"],
+        ["code,length,differ,difference,size"]
+    ],
+    "entropy":
+    [
+        ["is the number of bits that needed for encoded  media source "],
+        ["number,bits,needed,encode,encoded,source,media"]
+    ],
+    "runlength":
+    [
+        ["is used to compress data made of any combination of symbols  and represent multimedia as a set of pairs run code and run length"],
+        ["compress,combination,symbols,run length,run code,represent,pairs"]
+    ],
+    "diffential encoding":
+    [
+        ["is the change between samples and it is neighbours"],
+        ["change,samples,neighbours"]
+    ],
+    "huffman encoding":
+    [
+     ["get histogram and get count then equalizee histogram and get probability then doing sort descending grouping least two and sum least two values then resort rebeat last two steps untill become two elements to make binary code"],
+     ["histogram,count,equalized,equalize,probability,prob,sort,descending,grouping,two,least,sum,sumation,2,resort,rebeat,last,binary,code"]
+    ],
+    "huffman decoding": 
+    [
+        ["it is requires the encoded table values and code and code length to be compressed"],
+        ["encoded table,values,code,code length,compressed"]
+    ],
+    "pixe packing" :
+    [
+        ["it is not so much a method of data compression and it is can efficient way to store data in continous bytes of memory "],
+        ["not a method,data,continous,efficient,compression,store,bytes,memory"]
+    ],
+    "shannon fano encoding":
+    [
+        ["get histogram then get normalized histogram then  sort probability to descending order then divide table into two sets at almost equal sum of probability then assign 1 to upper and assign 0 to lower then rebeat 4 and 5 steps  "],
+        ["histogram,normalized,sort,descending,probability,prob,divide,table,2 sets,assign 1 ,upper,assign 0,lower,rebeat,4,5,steps"]
+    ],
+    "arithmetic encoding":
+    [
+     ["generate a binary number that represent a sequence of symbols in general or numbers by get histogram then  normalized histogram then get commulative probability for the symbol list then use commulative probability to generate the number"],
+     ["generate,binary number,represent,sequence,symbols,histogram,normalized,normalize,commulative,probability"]
+    ],
+    "uniform quanyization":
+    [
+        ["map a continous or discrete set of values into a smaller set of values"],
+        ["map","continous","discrete","values","smaller","set"]
+    ]
+    
+
+
+}
