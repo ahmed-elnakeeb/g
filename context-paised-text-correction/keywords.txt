@@ -185,3 +185,4 @@ range
 transform
 scale
 rotate
+figures
