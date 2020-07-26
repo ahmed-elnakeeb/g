@@ -17,8 +17,9 @@ class engin:
         # get keywords ready 
         for x in trange (1,self.trng):
             spell.word_frequency.load_text_file("keywords.txt")
-        for x in trange(1,100):
+        for x in trange(1,self.trng):
             spell.word_frequency.load_words(self.Keywords)
         for word in tqdm(words):
             corrected_text+=spell.correction(word)+" "
         return corrected_text
+    
