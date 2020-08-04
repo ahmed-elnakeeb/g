@@ -15,10 +15,11 @@ class engin:
         #toknize
         words=spell._tokenizer(self.student_Answer)
         # get keywords ready 
-        for x in trange (1,self.trng):
-            spell.word_frequency.load_text_file("keywords.txt")
-        for x in trange(1,self.trng):
-            spell.word_frequency.load_words(self.Keywords)
+        spell.word_frequency.load_dictionary("mydic.json")
+        spell.word_frequency._update_dictionary()
+        
+
+        
         for word in tqdm(words):
             corrected_text+=spell.correction(word)+" "
         return corrected_text
